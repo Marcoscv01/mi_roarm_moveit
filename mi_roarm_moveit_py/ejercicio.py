@@ -67,7 +67,7 @@ class RoArmM2Sequencer(Node):
         return self._send_wait(goal_msg)
 
     def mover_lineal(self, coords, orientacion, label):
-        """Mueve el TCP de forma lineal usando el sistema de Constraints del profesor"""
+       
         self.get_logger().info(f"Mov. Lineal: {label}")
         goal_msg = MoveGroup.Goal()
         goal_msg.request.group_name = "hand"
