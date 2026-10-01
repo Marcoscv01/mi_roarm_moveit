@@ -1,0 +1,1 @@
+Ejercicio para la asignatura de Arquitectura software para robots del master de Robótica. Consiste en una secuencia de movimientos a partir de ROS2 en un docker del ROBARM, haciendo uso de Gazebo y RViz y código en Python.
